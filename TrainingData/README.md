@@ -25,10 +25,10 @@ Data was export with Python 3.10 and ASE 3.22.1
 You can generate both the total `energy vs volume` plot and the `energy per atom vs volume per atom` plot for the full ASE database with
 
 ```bash
-../.venv/bin/python ../plot_training_energy_volume.py
+../.venv/bin/python ../scripts/plot_training_energy_volume.py
 ```
 
-This writes `energy_vs_volume.png` and `energy_vs_volume_per_atom.png` in the `TrainingData` directory by default.
+This writes `energy_vs_volume.png` and `energy_vs_volume_per_atom.png` in the repo's `plots` directory by default.
 
 ## Finding Large-Volume-Per-Atom Structures
 
