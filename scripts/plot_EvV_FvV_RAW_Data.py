@@ -1,12 +1,17 @@
 from __future__ import annotations
 
-import json
 import glob
+import json
 import os
+from pathlib import Path
+
 import numpy as np
 
+ROOT = Path(__file__).resolve().parents[1]
+PLOTS_DIR = ROOT / "plots"
+
 os.environ.setdefault(
-    "MPLCONFIGDIR", os.path.join(os.path.dirname(__file__), ".matplotlib")
+    "MPLCONFIGDIR", str((ROOT / ".matplotlib").resolve())
 )
 
 import matplotlib.pyplot as plt
@@ -127,6 +132,7 @@ def main():
         )
 
     df = process_alloy_data()
+    PLOTS_DIR.mkdir(parents=True, exist_ok=True)
 
     sns.set_theme(style="whitegrid", font_scale=1.2)
     plot_configs = [
@@ -148,7 +154,7 @@ def main():
         plt.ylabel(ylabel)
         plt.legend(bbox_to_anchor=(1.05, 1), loc="upper left")
         plt.tight_layout()
-        plt.savefig(fname, dpi=300)
+        plt.savefig(PLOTS_DIR / fname, dpi=300)
         plt.close()
 
     df["Energy_Bin"] = pd.cut(df["Energy_per_atom"], bins=500)
@@ -179,7 +185,7 @@ def main():
     plt.xlabel(r"Volume per Atom ($\AA^3$)")
     plt.ylabel(r"Energy per Atom (eV)")
     plt.tight_layout()
-    plt.savefig("z_energy_volume_per_atom_colorbar.png", dpi=300)
+    plt.savefig(PLOTS_DIR / "z_energy_volume_per_atom_colorbar.png", dpi=300)
     plt.close()
 
     plt.figure(figsize=(10, 6))
@@ -203,10 +209,10 @@ def main():
     plt.xlabel(r"Volume($\AA^3$)")
     plt.ylabel(r"Energy per Atom (eV)")
     plt.tight_layout()
-    plt.savefig("z_energy_volume_total_colorbar.png", dpi=300)
+    plt.savefig(PLOTS_DIR / "z_energy_volume_total_colorbar.png", dpi=300)
     plt.close()
 
-    df.to_csv("z_properties_summary.csv", index=False)
+    df.to_csv(PLOTS_DIR / "z_properties_summary.csv", index=False)
 
 
 if __name__ == "__main__":

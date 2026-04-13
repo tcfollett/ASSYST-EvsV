@@ -5,8 +5,10 @@ import argparse
 import os
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+
 os.environ.setdefault(
-    "MPLCONFIGDIR", str((Path(__file__).resolve().parent / ".matplotlib").resolve())
+    "MPLCONFIGDIR", str((ROOT / ".matplotlib").resolve())
 )
 
 import matplotlib
@@ -37,19 +39,19 @@ def parse_args():
     parser.add_argument(
         "--db",
         type=Path,
-        default=Path("TrainingData/ase.db"),
+        default=ROOT / "TrainingData" / "ase.db",
         help="Path to the ASE database.",
     )
     parser.add_argument(
         "--output-energy-volume",
         type=Path,
-        default=Path("TrainingData/energy_vs_volume.png"),
+        default=ROOT / "plots" / "energy_vs_volume.png",
         help="Where to save the total energy vs total volume figure.",
     )
     parser.add_argument(
         "--output-energy-volume-per-atom",
         type=Path,
-        default=Path("TrainingData/energy_vs_volume_per_atom.png"),
+        default=ROOT / "plots" / "energy_vs_volume_per_atom.png",
         help="Where to save the energy per atom vs volume per atom figure.",
     )
     parser.add_argument(
