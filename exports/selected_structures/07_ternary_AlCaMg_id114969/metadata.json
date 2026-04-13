@@ -1,0 +1,210 @@
+{
+  "calculator": {
+    "name": "unknown",
+    "parameters": {}
+  },
+  "cell": {
+    "lengths_angles": [
+      5.013021039700453,
+      5.01302104,
+      3.50286228,
+      90.0,
+      90.0,
+      120.00000000197664
+    ],
+    "matrix_angstrom": [
+      [
+        4.34140357,
+        -2.50651052,
+        0.0
+      ],
+      [
+        0.0,
+        5.01302104,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.50286228
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "volume_angstrom3": 76.23470940495918,
+    "volume_per_atom_angstrom3": 25.41156980165306
+  },
+  "composition": {
+    "atomic_numbers": [
+      12,
+      13,
+      20
+    ],
+    "chemical_system": "Al-Ca-Mg",
+    "counts": {
+      "Al": 1,
+      "Ca": 1,
+      "Mg": 1
+    },
+    "formula": "AlCaMg",
+    "masses_amu": [
+      24.305,
+      26.9815385,
+      40.078
+    ],
+    "natoms": 3,
+    "symbols_original_order": [
+      "Mg",
+      "Al",
+      "Ca"
+    ],
+    "symbols_poscar_order": [
+      "Al",
+      "Ca",
+      "Mg"
+    ]
+  },
+  "files": {
+    "metadata_json": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/07_ternary_AlCaMg_id114969/metadata.json",
+    "output_dir": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/07_ternary_AlCaMg_id114969",
+    "poscar": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/07_ternary_AlCaMg_id114969/POSCAR"
+  },
+  "metadata": {
+    "constraints": [],
+    "data": {},
+    "key_value_pairs": {
+      "name": 114968
+    },
+    "optional_row_fields": {
+      "charges": null,
+      "dipole": null,
+      "forces": [
+        [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "free_energy": null,
+      "initial_charges": null,
+      "initial_magmoms": null,
+      "magmom": null,
+      "magmoms": null,
+      "masses": null,
+      "momenta": null,
+      "stress": null,
+      "tags": null
+    }
+  },
+  "positions": {
+    "cartesian_angstrom": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.894269061138012,
+        -2.506510532462869e-08,
+        0.0
+      ],
+      [
+        1.447134508861988,
+        2.506510545065105,
+        1.75143114
+      ]
+    ],
+    "fractional": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.66666667,
+        0.33333333,
+        0.0
+      ],
+      [
+        0.33333333,
+        0.6666666699999999,
+        0.5
+      ]
+    ],
+    "poscar_cartesian_angstrom": [
+      [
+        2.894269061138012,
+        -2.506510532462869e-08,
+        0.0
+      ],
+      [
+        1.447134508861988,
+        2.506510545065105,
+        1.75143114
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "poscar_fractional": [
+      [
+        0.66666667,
+        0.33333333,
+        0.0
+      ],
+      [
+        0.33333333,
+        0.6666666699999999,
+        0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "poscar_sorted_indices_from_original": [
+      1,
+      2,
+      0
+    ]
+  },
+  "properties": {
+    "charge_e": 0.0,
+    "energy_ev": -7.59060050867,
+    "energy_per_atom_ev": -2.5302001695566667,
+    "fmax_ev_per_angstrom": 0.0,
+    "smax": null
+  },
+  "selection": {
+    "category": "ternary",
+    "chemical_system": "Al-Ca-Mg",
+    "formula": "AlCaMg",
+    "id": 114969,
+    "label": "07_ternary_AlCaMg_id114969",
+    "selection_basis": "Lowest-fmax, lowest-energy-per-atom balanced Al-Ca-Mg ternary."
+  },
+  "source": {
+    "ctime": 24.52971388109984,
+    "database_path": "/Users/bomilly/ASSYST-EvsV/TrainingData/ase.db",
+    "mtime": 24.52971388109984,
+    "row_id": 114969,
+    "unique_id": "9bd2424fd4198dbc98f37512ba92bdc1",
+    "user": "zora"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "calculator": {
+    "name": "unknown",
+    "parameters": {}
+  },
+  "cell": {
+    "lengths_angles": [
+      3.95940198,
+      3.95940198,
+      3.95940198,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "matrix_angstrom": [
+      [
+        3.95940198,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.95940198,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.95940198
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "volume_angstrom3": 62.07100651710981,
+    "volume_per_atom_angstrom3": 31.035503258554904
+  },
+  "composition": {
+    "atomic_numbers": [
+      12,
+      20
+    ],
+    "chemical_system": "Ca-Mg",
+    "counts": {
+      "Ca": 1,
+      "Mg": 1
+    },
+    "formula": "CaMg",
+    "masses_amu": [
+      24.305,
+      40.078
+    ],
+    "natoms": 2,
+    "symbols_original_order": [
+      "Mg",
+      "Ca"
+    ],
+    "symbols_poscar_order": [
+      "Ca",
+      "Mg"
+    ]
+  },
+  "files": {
+    "metadata_json": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/06_binary_CaMg_id48346/metadata.json",
+    "output_dir": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/06_binary_CaMg_id48346",
+    "poscar": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/06_binary_CaMg_id48346/POSCAR"
+  },
+  "metadata": {
+    "constraints": [],
+    "data": {},
+    "key_value_pairs": {
+      "name": 48345
+    },
+    "optional_row_fields": {
+      "charges": null,
+      "dipole": null,
+      "forces": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "free_energy": null,
+      "initial_charges": null,
+      "initial_magmoms": null,
+      "magmom": null,
+      "magmoms": null,
+      "masses": null,
+      "momenta": null,
+      "stress": null,
+      "tags": null
+    }
+  },
+  "positions": {
+    "cartesian_angstrom": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.97970099,
+        1.97970099,
+        1.97970099
+      ]
+    ],
+    "fractional": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994
+      ]
+    ],
+    "poscar_cartesian_angstrom": [
+      [
+        1.97970099,
+        1.97970099,
+        1.97970099
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "poscar_fractional": [
+      [
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "poscar_sorted_indices_from_original": [
+      1,
+      0
+    ]
+  },
+  "properties": {
+    "charge_e": 0.0,
+    "energy_ev": -3.60241894679,
+    "energy_per_atom_ev": -1.801209473395,
+    "fmax_ev_per_angstrom": 0.0,
+    "smax": null
+  },
+  "selection": {
+    "category": "binary",
+    "chemical_system": "Ca-Mg",
+    "formula": "CaMg",
+    "id": 48346,
+    "label": "06_binary_CaMg_id48346",
+    "selection_basis": "Lowest-fmax, lowest-energy-per-atom 1:1 Ca-Mg alloy."
+  },
+  "source": {
+    "ctime": 24.529710585530083,
+    "database_path": "/Users/bomilly/ASSYST-EvsV/TrainingData/ase.db",
+    "mtime": 24.529710585530083,
+    "row_id": 48346,
+    "unique_id": "d0c034bb6e0c0e48a997f7a0025b4e2b",
+    "user": "zora"
+  }
+}

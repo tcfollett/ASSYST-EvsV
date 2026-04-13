@@ -1,0 +1,148 @@
+{
+  "calculator": {
+    "name": "unknown",
+    "parameters": {}
+  },
+  "cell": {
+    "lengths_angles": [
+      3.3653807835921916,
+      3.3097843097320823,
+      3.1305565989758213,
+      58.926848345941444,
+      60.33213703576016,
+      59.14624801187981
+    ],
+    "matrix_angstrom": [
+      [
+        3.26266024,
+        -0.30068223,
+        0.76839194
+      ],
+      [
+        1.83344403,
+        2.6670102,
+        0.69297313
+      ],
+      [
+        0.96424567,
+        0.58344802,
+        2.92065118
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "volume_angstrom3": 24.35016810736477,
+    "volume_per_atom_angstrom3": 24.35016810736477
+  },
+  "composition": {
+    "atomic_numbers": [
+      12
+    ],
+    "chemical_system": "Mg",
+    "counts": {
+      "Mg": 1
+    },
+    "formula": "Mg",
+    "masses_amu": [
+      24.305
+    ],
+    "natoms": 1,
+    "symbols_original_order": [
+      "Mg"
+    ],
+    "symbols_poscar_order": [
+      "Mg"
+    ]
+  },
+  "files": {
+    "metadata_json": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/03_unary_Mg_id46322/metadata.json",
+    "output_dir": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/03_unary_Mg_id46322",
+    "poscar": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/03_unary_Mg_id46322/POSCAR"
+  },
+  "metadata": {
+    "constraints": [],
+    "data": {},
+    "key_value_pairs": {
+      "name": 46321
+    },
+    "optional_row_fields": {
+      "charges": null,
+      "dipole": null,
+      "forces": [
+        [
+          -0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "free_energy": null,
+      "initial_charges": null,
+      "initial_magmoms": null,
+      "magmom": null,
+      "magmoms": null,
+      "masses": null,
+      "momenta": null,
+      "stress": null,
+      "tags": null
+    }
+  },
+  "positions": {
+    "cartesian_angstrom": [
+      [
+        1.8219947068576396,
+        0.415068746481989,
+        1.9584063044052742
+      ]
+    ],
+    "fractional": [
+      [
+        0.35190392,
+        0.07263889000000001,
+        0.56072063
+      ]
+    ],
+    "poscar_cartesian_angstrom": [
+      [
+        1.8219947068576396,
+        0.415068746481989,
+        1.9584063044052742
+      ]
+    ],
+    "poscar_fractional": [
+      [
+        0.35190392,
+        0.07263889000000001,
+        0.56072063
+      ]
+    ],
+    "poscar_sorted_indices_from_original": [
+      0
+    ]
+  },
+  "properties": {
+    "charge_e": 0.0,
+    "energy_ev": -1.47491968207,
+    "energy_per_atom_ev": -1.47491968207,
+    "fmax_ev_per_angstrom": 0.0,
+    "smax": null
+  },
+  "selection": {
+    "category": "unary",
+    "chemical_system": "Mg",
+    "formula": "Mg",
+    "id": 46322,
+    "label": "03_unary_Mg_id46322",
+    "selection_basis": "Lowest-fmax, lowest-energy-per-atom Mg unary example."
+  },
+  "source": {
+    "ctime": 24.529710487274976,
+    "database_path": "/Users/bomilly/ASSYST-EvsV/TrainingData/ase.db",
+    "mtime": 24.529710487274976,
+    "row_id": 46322,
+    "unique_id": "fd853cbd1daf8f7fd3cde393b67d28be",
+    "user": "zora"
+  }
+}

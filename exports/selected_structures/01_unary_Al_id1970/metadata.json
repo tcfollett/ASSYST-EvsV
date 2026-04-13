@@ -1,0 +1,148 @@
+{
+  "calculator": {
+    "name": "unknown",
+    "parameters": {}
+  },
+  "cell": {
+    "lengths_angles": [
+      2.9534184808541952,
+      2.914649409788667,
+      2.628783349420337,
+      87.8340897601713,
+      66.04716674509416,
+      119.76214263466251
+    ],
+    "matrix_angstrom": [
+      [
+        2.48659454,
+        -1.48834623,
+        0.56952069
+      ],
+      [
+        0.01860135,
+        2.91441298,
+        0.03212715
+      ],
+      [
+        0.72938764,
+        0.06687207,
+        2.52468289
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "volume_angstrom3": 17.116019467661726,
+    "volume_per_atom_angstrom3": 17.116019467661726
+  },
+  "composition": {
+    "atomic_numbers": [
+      13
+    ],
+    "chemical_system": "Al",
+    "counts": {
+      "Al": 1
+    },
+    "formula": "Al",
+    "masses_amu": [
+      26.9815385
+    ],
+    "natoms": 1,
+    "symbols_original_order": [
+      "Al"
+    ],
+    "symbols_poscar_order": [
+      "Al"
+    ]
+  },
+  "files": {
+    "metadata_json": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/01_unary_Al_id1970/metadata.json",
+    "output_dir": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/01_unary_Al_id1970",
+    "poscar": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/01_unary_Al_id1970/POSCAR"
+  },
+  "metadata": {
+    "constraints": [],
+    "data": {},
+    "key_value_pairs": {
+      "name": 1969
+    },
+    "optional_row_fields": {
+      "charges": null,
+      "dipole": null,
+      "forces": [
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "free_energy": null,
+      "initial_charges": null,
+      "initial_magmoms": null,
+      "magmom": null,
+      "magmoms": null,
+      "masses": null,
+      "momenta": null,
+      "stress": null,
+      "tags": null
+    }
+  },
+  "positions": {
+    "cartesian_angstrom": [
+      [
+        0.6043355077912734,
+        0.055407140223436305,
+        2.091828522998354
+      ]
+    ],
+    "fractional": [
+      [
+        2.7999999997728805e-07,
+        2.19999999976789e-07,
+        0.8285509300000001
+      ]
+    ],
+    "poscar_cartesian_angstrom": [
+      [
+        0.6043355077912734,
+        0.055407140223436305,
+        2.091828522998354
+      ]
+    ],
+    "poscar_fractional": [
+      [
+        2.7999999997728805e-07,
+        2.19999999976789e-07,
+        0.8285509300000001
+      ]
+    ],
+    "poscar_sorted_indices_from_original": [
+      0
+    ]
+  },
+  "properties": {
+    "charge_e": 0.0,
+    "energy_ev": -3.67864902457,
+    "energy_per_atom_ev": -3.67864902457,
+    "fmax_ev_per_angstrom": 0.0,
+    "smax": null
+  },
+  "selection": {
+    "category": "unary",
+    "chemical_system": "Al",
+    "formula": "Al",
+    "id": 1970,
+    "label": "01_unary_Al_id1970",
+    "selection_basis": "Lowest-fmax, lowest-energy-per-atom Al unary example."
+  },
+  "source": {
+    "ctime": 24.529708337966284,
+    "database_path": "/Users/bomilly/ASSYST-EvsV/TrainingData/ase.db",
+    "mtime": 24.529708337966284,
+    "row_id": 1970,
+    "unique_id": "351c5c882e1d162623592632a4c974fb",
+    "user": "zora"
+  }
+}
