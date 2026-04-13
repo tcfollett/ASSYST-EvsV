@@ -1,0 +1,148 @@
+{
+  "calculator": {
+    "name": "unknown",
+    "parameters": {}
+  },
+  "cell": {
+    "lengths_angles": [
+      3.939676868643944,
+      3.827210220087911,
+      6.570619612238918,
+      148.45446225746642,
+      126.10913469309297,
+      59.41126024088666
+    ],
+    "matrix_angstrom": [
+      [
+        2.96132358,
+        1.76646782,
+        -1.90557286
+      ],
+      [
+        -0.62012655,
+        3.17199242,
+        -2.04974272
+      ],
+      [
+        0.35847419,
+        -2.87553189,
+        5.89710562
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "volume_angstrom3": 41.86962039202071,
+    "volume_per_atom_angstrom3": 41.86962039202071
+  },
+  "composition": {
+    "atomic_numbers": [
+      20
+    ],
+    "chemical_system": "Ca",
+    "counts": {
+      "Ca": 1
+    },
+    "formula": "Ca",
+    "masses_amu": [
+      40.078
+    ],
+    "natoms": 1,
+    "symbols_original_order": [
+      "Ca"
+    ],
+    "symbols_poscar_order": [
+      "Ca"
+    ]
+  },
+  "files": {
+    "metadata_json": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/02_unary_Ca_id21212/metadata.json",
+    "output_dir": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/02_unary_Ca_id21212",
+    "poscar": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/02_unary_Ca_id21212/POSCAR"
+  },
+  "metadata": {
+    "constraints": [],
+    "data": {},
+    "key_value_pairs": {
+      "name": 21211
+    },
+    "optional_row_fields": {
+      "charges": null,
+      "dipole": null,
+      "forces": [
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "free_energy": null,
+      "initial_charges": null,
+      "initial_magmoms": null,
+      "magmom": null,
+      "magmoms": null,
+      "masses": null,
+      "momenta": null,
+      "stress": null,
+      "tags": null
+    }
+  },
+  "positions": {
+    "cartesian_angstrom": [
+      [
+        1.7339844717458455,
+        2.1110006898007017,
+        0.9922334763869434
+      ]
+    ],
+    "fractional": [
+      [
+        0.69321626,
+        0.92723365,
+        0.7145535899999998
+      ]
+    ],
+    "poscar_cartesian_angstrom": [
+      [
+        1.7339844717458455,
+        2.1110006898007017,
+        0.9922334763869434
+      ]
+    ],
+    "poscar_fractional": [
+      [
+        0.69321626,
+        0.92723365,
+        0.7145535899999998
+      ]
+    ],
+    "poscar_sorted_indices_from_original": [
+      0
+    ]
+  },
+  "properties": {
+    "charge_e": 0.0,
+    "energy_ev": -1.9268212693,
+    "energy_per_atom_ev": -1.9268212693,
+    "fmax_ev_per_angstrom": 0.0,
+    "smax": null
+  },
+  "selection": {
+    "category": "unary",
+    "chemical_system": "Ca",
+    "formula": "Ca",
+    "id": 21212,
+    "label": "02_unary_Ca_id21212",
+    "selection_basis": "Lowest-fmax, lowest-energy-per-atom Ca unary example."
+  },
+  "source": {
+    "ctime": 24.529709258455604,
+    "database_path": "/Users/bomilly/ASSYST-EvsV/TrainingData/ase.db",
+    "mtime": 24.529709258455604,
+    "row_id": 21212,
+    "unique_id": "8584f62c132360a13342fd47e30c44df",
+    "user": "zora"
+  }
+}

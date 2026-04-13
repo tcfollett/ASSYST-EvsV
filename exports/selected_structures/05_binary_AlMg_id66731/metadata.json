@@ -1,0 +1,179 @@
+{
+  "calculator": {
+    "name": "unknown",
+    "parameters": {}
+  },
+  "cell": {
+    "lengths_angles": [
+      3.0109896400000005,
+      3.0109895500000015,
+      4.2602045800000035,
+      89.99999613554935,
+      90.0000017025902,
+      90.00000076115549
+    ],
+    "matrix_angstrom": [
+      [
+        3.01098964,
+        -2e-08,
+        -4e-08
+      ],
+      [
+        -2e-08,
+        3.01098955,
+        9e-08
+      ],
+      [
+        -7e-08,
+        1.6e-07,
+        4.26020458
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "volume_angstrom3": 38.623263267720006,
+    "volume_per_atom_angstrom3": 19.311631633860003
+  },
+  "composition": {
+    "atomic_numbers": [
+      13,
+      12
+    ],
+    "chemical_system": "Al-Mg",
+    "counts": {
+      "Al": 1,
+      "Mg": 1
+    },
+    "formula": "AlMg",
+    "masses_amu": [
+      26.9815385,
+      24.305
+    ],
+    "natoms": 2,
+    "symbols_original_order": [
+      "Al",
+      "Mg"
+    ],
+    "symbols_poscar_order": [
+      "Al",
+      "Mg"
+    ]
+  },
+  "files": {
+    "metadata_json": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/05_binary_AlMg_id66731/metadata.json",
+    "output_dir": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/05_binary_AlMg_id66731",
+    "poscar": "/Users/bomilly/ASSYST-EvsV/exports/selected_structures/05_binary_AlMg_id66731/POSCAR"
+  },
+  "metadata": {
+    "constraints": [],
+    "data": {},
+    "key_value_pairs": {
+      "name": 66730
+    },
+    "optional_row_fields": {
+      "charges": null,
+      "dipole": null,
+      "forces": [
+        [
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "free_energy": null,
+      "initial_charges": null,
+      "initial_magmoms": null,
+      "magmom": null,
+      "magmoms": null,
+      "masses": null,
+      "momenta": null,
+      "stress": null,
+      "tags": null
+    }
+  },
+  "positions": {
+    "cartesian_angstrom": [
+      [
+        7.032968979999999e-08,
+        3.010989459670313,
+        8.99999961e-08
+      ],
+      [
+        1.5054946846703103,
+        1.5054949353296871,
+        2.130102315000004
+      ]
+    ],
+    "fractional": [
+      [
+        3e-08,
+        0.99999997,
+        6.213264904216623e-24
+      ],
+      [
+        0.49999997,
+        0.5000000299999999,
+        0.4999999999999999
+      ]
+    ],
+    "poscar_cartesian_angstrom": [
+      [
+        7.032968979999999e-08,
+        3.010989459670313,
+        8.99999961e-08
+      ],
+      [
+        1.5054946846703103,
+        1.5054949353296871,
+        2.130102315000004
+      ]
+    ],
+    "poscar_fractional": [
+      [
+        3e-08,
+        0.99999997,
+        6.213264904216623e-24
+      ],
+      [
+        0.49999997,
+        0.5000000299999999,
+        0.4999999999999999
+      ]
+    ],
+    "poscar_sorted_indices_from_original": [
+      0,
+      1
+    ]
+  },
+  "properties": {
+    "charge_e": 0.0,
+    "energy_ev": -5.25682507719,
+    "energy_per_atom_ev": -2.628412538595,
+    "fmax_ev_per_angstrom": 0.0,
+    "smax": null
+  },
+  "selection": {
+    "category": "binary",
+    "chemical_system": "Al-Mg",
+    "formula": "AlMg",
+    "id": 66731,
+    "label": "05_binary_AlMg_id66731",
+    "selection_basis": "Lowest-fmax, lowest-energy-per-atom 1:1 Al-Mg alloy."
+  },
+  "source": {
+    "ctime": 24.529711491038718,
+    "database_path": "/Users/bomilly/ASSYST-EvsV/TrainingData/ase.db",
+    "mtime": 24.529711491038718,
+    "row_id": 66731,
+    "unique_id": "e7c8ec2128932fe314b337507338ecc7",
+    "user": "zora"
+  }
+}
